@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #333;
+    font-size: 2rem;
+}
+
+header p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.upload-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.upload-section label {
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#preview {
+    margin-top: 20px;
+    display: none;
+}
+
+.result-section {
+    margin-top: 30px;
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.result-section h2 {
+    color: #444;
+}
+
+.result-section p {
+    color: #555;
+    font-size: 1.2rem;
+}
+
+#class-name {
+    font-weight: bold;
+    color: #333;
+}
+
+#confidence-value {
+    font-weight: bold;
+    color: #28a745;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,53 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0;
+    padding: 20px; /* Add some padding around the body */
+}
+
+/* Heading styling */
+h1 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark gray color */
+}
+
+/* Form container styling */
+form {
+    max-width: 400px; /* Maximum width for the form */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Padding inside the form */
+    background-color: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Label styling */
+label {
+    display: block; /* Make label take up the full width */
+    margin-bottom: 10px; /* Space below the label */
+    font-weight: bold; /* Bold font */
+}
+
+/* Input file styling */
+input[type="file"] {
+    margin-bottom: 20px; /* Space below the file input */
+}
+
+/* Button styling */
+button {
+    display: block; /* Make button block level */
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside the button */
+    background-color: #007BFF; /* Bootstrap blue color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
