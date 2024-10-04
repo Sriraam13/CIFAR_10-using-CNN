@@ -10,7 +10,7 @@ class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer',
                'dog', 'frog', 'horse', 'ship', 'truck']
 
 # Load the pre-trained model
-model = load_model('cifar10_model_V2.h5')
+model = load_model('CIFAR10_V4.h5')
 
 # Preprocessing function for CIFAR-10 images (32x32 images)
 def preprocess_image(image):
